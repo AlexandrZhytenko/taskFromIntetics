@@ -13,7 +13,7 @@ def max_palindrome(prime_numbers):
 from timeit import default_timer
 start = default_timer()
 
-print max_palindrome((i for i in sieve.primerange(9999, 99999)))
+print max_palindrome((i for i in sieve.primerange(9, 99)))
 # The max palindrome with product numbers 30109 and 33211 is: 999949999
 
 end = default_timer()
