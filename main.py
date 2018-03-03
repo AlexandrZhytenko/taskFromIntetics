@@ -18,4 +18,4 @@ print max_palindrome((i for i in sieve.primerange(9999*3, 99999/3)))
 
 end = default_timer()
 print "The time of max_palindrome program's execution is {} sec".format(end - start)
-# The time of max_palindrome program's execution is 60.7272051733 sec
+# The time of max_palindrome program's execution is 0.0787104250156 sec
